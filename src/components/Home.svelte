@@ -1,11 +1,11 @@
 <script>
 	import Scrolly from "./Scrolly.svelte";
-    import "@fontsource-variable/playfair-display"
+    import '@fontsource/merriweather';
 </script>
 
 <div>
 <div id="text-wrapper"> 
-	<h1 id="headline">Language Server Protocols</h1>
+	<h1 id="headline">The Language Server Protocol</h1>
 	<p id="intro">Code editors these days come with some fancy schmancy features like code comple<span class="tion">tion</span><span class="bar">|</span>, syntax <b id="highlight">highlighting</b>, and refactoring routines.</p>
 
 	<p id="p-intro-end">How do language developers support these features? Let's find out.</p>
@@ -16,7 +16,8 @@
 <style>
 
     #text-wrapper {
-        font-family: 'Playfair Display', serif;
+        position: relative;
+        font-family: 'Merriweather', serif;
     }
 
 	.tion {
@@ -25,10 +26,6 @@
 	.bar {
 		animation: blinkIn 1.5s steps(5, start) infinite;
 	}
-
-    #text-wrapper {
-		position: relative;
-    }
 
 	@keyframes fadeIn {
 		0% { opacity: 0; }

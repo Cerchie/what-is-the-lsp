@@ -16,6 +16,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/playfair-display": "^5.0.18",
+		"@fontsource/merriweather": "^5.0.8",
 		"animejs": "^3.2.1"
 	}
 }

@@ -3,7 +3,7 @@
 	import GoToDef from "./GoToDef.svelte";
 	import {onMount} from 'svelte'
 	import anime from 'animejs';
-    import "@fontsource-variable/playfair-display"
+    import '@fontsource/merriweather';
 	
 	// https://blog.hubspot.com/website/css-animate-on-scroll
 
@@ -78,29 +78,33 @@ observer.observe(document.querySelector('.image.image-1'));
 
 	<ScrollyHelper bind:value>
 		<figure>
-			<p>PLACEHOLDER</p>
+			<p>Before the LSP, language developers faced an issue when it came to supporting different code editors. 
+            </p>
+            <spacer></spacer>
+              <p> 
+                The work (including writing type checkers and builders) involved in supporting features like 
+               <span class="codespan">goToDefinition</span> and <span class="codespan">autocomplete</span> had to be repeated <i>per editor</i>. 
+            </p>
 			<div class="img-container">
 				<img class="image image-2" src='assets/1stgraphwhitebg.svg' alt="imageofgraph" />
 			</div>	
-			<p>PLACEHOLDER</p>
+            <p>This means the work of supporting, say 3 languages in 3 editors is the work of 3x3.</p>
 		</figure>
 
 		<figure class='sticky'>
+
 			<div class="img-container-2">
 				<img class="image image-1" src="assets/2ndgraphwhitebg.svg" alt="1">
 	
 			</div>	
-
+            <p>But once the unifying Language Server Protocol was introduced by Microsoft in 2015<a href="#footnote-1">[1]</a>, the work of developers to
+                support 3 languages in 3 editors was reduced to 3x1!</p>
 		</figure>
-		<p>placeholder</p>
-		<!-- TODO-- fade in ON SCROLL -->
-<!-- can't move the above ^ into steps because need the CSS classes to be accessible from styles -->
-		<!-- {#each steps as text, i}
-		<div class="step" class:active={value === i}>
-		  <div class="step-content">{@html text}</div>
-		</div>
-	  {/each} -->
-
+        <hr>
+        <figure>
+        <p>Ok, so what <i>is</i> the Language Server Protocol? Well, it uses <a href="https://www.jsonrpc.org/">JSON-RPC</a> to define a common protocol
+        for code editors and language servers to interact with. These servers using the protocol can handle requests from each code editor, or client, asynchronously. 
+        To see what that means, press 'play' on the animation below.</p>
 	  <div class="animation-request-container">
 	  <div class="request-container">
 		
@@ -123,7 +127,7 @@ observer.observe(document.querySelector('.image.image-1'));
 			<button class="pause"> Pause</button>
 		</div>
 	</div>
-
+</figure>
 	</ScrollyHelper>
 
 	<div class="editorwindow">
@@ -136,13 +140,27 @@ observer.observe(document.querySelector('.image.image-1'));
 
 <GoToDef/>
 	<div class="spacer" />
+
+    <p id="footnote-1">[1] Running <span class="codespan">curl -X GET https://api.github.com/repos/microsoft/language-server-protocol</span> reveals <span class="codespan">"created_at": "2015-09-04T09:24:55Z"</span></p>
 </section>
 
 <style>
 
+#footnote-1 {
+    font-size: x-small;
+}
 
+.codespan {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    max-width: 40rem;
+	margin: auto;
+    color: #4b0d82;
+}
 #scrolly {
-        font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     }
 
 hr {
