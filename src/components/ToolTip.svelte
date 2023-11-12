@@ -12,6 +12,8 @@ class="tooltip"
 	width: 1.5em;
 	margin-top: .5em;
 	margin-left: .5em;
+    margin-bottom: 1em;
+    padding-top: .25em;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: 200;
 	border-radius: 2px;
@@ -32,6 +34,7 @@ class="tooltip"
 .tooltip {
   position:relative; /* making the .tooltip span a container for the tooltip text */
   border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+
 }
 
 .tooltip:before {
