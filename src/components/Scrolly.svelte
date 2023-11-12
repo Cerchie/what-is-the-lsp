@@ -1,5 +1,4 @@
 <script>
-	import ScrollyHelper from "./ScrollyHelper.svelte";
 	import GoToDef from "./GoToDef.svelte";
     import RequestContainer from "./RequestContainer.svelte";
 	import {onMount} from 'svelte'
@@ -78,7 +77,7 @@ observer.observe(document.querySelector('.image.image-1'));
 	<hr>
 	<div class="spacer" />
 
-	<ScrollyHelper bind:value>
+
 		<figure>
 			<p>Before the LSP, language developers faced an issue when it came to supporting different code editors. 
             </p>
@@ -105,11 +104,13 @@ observer.observe(document.querySelector('.image.image-1'));
         <hr>
         <figure>
         <p>Ok, so what <i>is</i> the Language Server Protocol? Well, it uses <a href="https://www.jsonrpc.org/">JSON-RPC</a> to define a common protocol
-        for code editors and language servers to interact with. These servers using the protocol can handle requests from each code editor, or client, asynchronously. 
+        for code editors and language servers to interact with. </p> 
+
+        <p> These servers using the protocol can handle requests from each code editor, or client, asynchronously. 
         To see what that means, press 'send' on the animation below.</p>
             <RequestContainer/>
 </figure>
-	</ScrollyHelper>
+
     
     <ToolTip/>
 
@@ -135,6 +136,7 @@ observer.observe(document.querySelector('.image.image-1'));
 p {
     max-width: 40rem;
 	margin: auto;
+    margin-top: 1rem;
     color: #4b0d82;
 }
 #scrolly {
