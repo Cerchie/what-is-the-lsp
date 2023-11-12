@@ -10,10 +10,10 @@
 <style>
 
 .client-gotodef {
-  margin-left: 6em;
+  margin-left: 12em;
   right: 10em;
   bottom: 4em;
-  padding: .5em;
+  padding-top: 1.5em;
   background-color: #edebf5;
   color: black;
   border: 3px solid  black;
@@ -25,13 +25,12 @@
 }
 
 .gotodef-container {
-
   margin: auto;
   padding: 2em;
 }
 
 .gotodef-params {
-  margin-left: 10em;
+  margin-left: 12em;
   margin-bottom: -1em;
   width: fit-content;
   padding: 1em;
@@ -46,6 +45,7 @@
   }
 
 .server-gotodef {
+    padding-top: 1.5em;
   margin-left: 12em;
   margin-top: 7em;
   top: 10em;

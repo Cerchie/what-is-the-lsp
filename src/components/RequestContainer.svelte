@@ -99,6 +99,7 @@
     transition: background-color 0.3s ease;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: large;
+    border: 1px solid #4b0d82;
 }
 
 .play:hover {
@@ -108,6 +109,7 @@
 }
 
 .pause {
+    border: 1px solid #4b0d82;
 	margin: .5em;
 	height: 2em;
     color: white; /* Background color */

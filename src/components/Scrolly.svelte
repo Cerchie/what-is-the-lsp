@@ -29,16 +29,16 @@
 	var animationGoToDefReq = anime({
         targets:  '.gotodef-params',
         keyframes: [
-            {translateY: 150},
+            {translateY: 190},
 			{innerHTML: 'Location'},
-            {translateY: -2},
+            {translateY: -1},
         ],	
         delay: function(el, i) { return i * 400; },
         direction: 'normal',
         loop: true,
         autoplay: true,
         easing: 'easeInSine',
-        duration: 4000,
+        duration: 7000,
 		update: async function(){
 				var obj = document.querySelector('.gotodef-params');
 				return obj.innerHTML = obj.innerHTML.slice(0, obj.innerHTML.length - 2);
@@ -106,10 +106,10 @@ observer.observe(document.querySelector('.image.image-1'));
         To see what that means, press 'send' on the animation below.</p>
             <RequestContainer/>
 </figure>
-
-    
+<figure>
+    <p>So what happens, say, when you hover over a <span class="codespan">variableName</span> and click <span class="codespan">goToDefinition</span>?</p>
     <ToolTip/>
-
+</figure>
 
 <div class="spacer"></div>
 

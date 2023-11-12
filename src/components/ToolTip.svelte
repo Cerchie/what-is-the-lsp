@@ -22,6 +22,7 @@ class="tooltip"
 	border-radius: 2px;
 	width: 50%;
 	margin: auto;
+    margin-top: 4em;
 	text-align: center;
 	padding-bottom: 1em;
 	font-family: 'Courier New', Courier, monospace;
