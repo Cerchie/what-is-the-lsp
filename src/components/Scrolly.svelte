@@ -6,10 +6,6 @@
     import '@fontsource/merriweather';
     import ToolTip from "./ToolTip.svelte";
 	
-	// https://blog.hubspot.com/website/css-animate-on-scroll
-
-	let value;
-
 
   onMount(() => {
 		
