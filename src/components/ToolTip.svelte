@@ -1,0 +1,69 @@
+<div class="editorwindow">
+    <div class="exit-btn">X</div>
+<span 
+data-text="goToDefinition" 
+class="tooltip"
+>variableName</span> = newValue;</div>
+
+<style>
+    .exit-btn {
+	border: 2px solid black;
+	height: 1.5em;
+	width: 1.5em;
+	margin-top: .5em;
+	margin-left: .5em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 200;
+	border-radius: 2px;
+	background-color: white;
+}
+.editorwindow {
+	border: 2px solid black;
+	border-radius: 2px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 1em;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	background-color: #edebf5;
+}
+.tooltip {
+  position:relative; /* making the .tooltip span a container for the tooltip text */
+  border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
+}
+
+.tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position:absolute;
+  
+  /* vertically center */
+  top:50%;
+  transform:translateY(-50%);
+  
+  /* move to right */
+  left:100%;
+	margin-left: -2em;
+  margin-top: -2em;
+  
+  /* basic styles */
+  width:200px;
+  padding:10px;
+  border-radius:10px;
+  background:#000;
+  color: #fff;
+  text-align:center;
+
+  display:none; 
+  /* hide by default */
+}
+
+
+.tooltip:hover:before {
+  display:block;
+}
+
+/* source: https://blog.logrocket.com/creating-beautiful-tooltips-with-only-css/ */
+	
+	
+</style>

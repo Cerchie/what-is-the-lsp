@@ -5,6 +5,7 @@
 	import {onMount} from 'svelte'
 	import anime from 'animejs';
     import '@fontsource/merriweather';
+    import ToolTip from "./ToolTip.svelte";
 	
 	// https://blog.hubspot.com/website/css-animate-on-scroll
 
@@ -109,13 +110,9 @@ observer.observe(document.querySelector('.image.image-1'));
             <RequestContainer/>
 </figure>
 	</ScrollyHelper>
+    
+    <ToolTip/>
 
-	<div class="editorwindow">
-		<div class="exit-btn">X</div>
-	<span 
-	data-text="goToDefinition" 
-	class="tooltip"
-  >variableName</span> = newValue;</div>
 
 <div class="spacer"></div>
 
