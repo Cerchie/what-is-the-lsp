@@ -106,7 +106,7 @@ observer.observe(document.querySelector('.image.image-1'));
         <figure>
         <p>Ok, so what <i>is</i> the Language Server Protocol? Well, it uses <a href="https://www.jsonrpc.org/">JSON-RPC</a> to define a common protocol
         for code editors and language servers to interact with. These servers using the protocol can handle requests from each code editor, or client, asynchronously. 
-        To see what that means, press 'play' on the animation below.</p>
+        To see what that means, press 'send' on the animation below.</p>
             <RequestContainer/>
 </figure>
 	</ScrollyHelper>
@@ -146,66 +146,7 @@ hr {
 	margin:0 auto;
 	border: 1px solid #4b0d82;
 }
-.exit-btn {
-	border: 2px solid black;
-	height: 1.5em;
-	width: 1.5em;
-	margin-top: .5em;
-	margin-left: .5em;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-weight: 200;
-	border-radius: 2px;
-	background-color: white;
-}
-.editorwindow {
-	border: 2px solid black;
-	border-radius: 2px;
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	padding-bottom: 1em;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: 700;
-	background-color: #edebf5;
-}
-.tooltip {
-  position:relative; /* making the .tooltip span a container for the tooltip text */
-  border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
-}
 
-.tooltip:before {
-  content: attr(data-text); /* here's the magic */
-  position:absolute;
-  
-  /* vertically center */
-  top:50%;
-  transform:translateY(-50%);
-  
-  /* move to right */
-  left:100%;
-	margin-left: -2em;
-  margin-top: -2em;
-  
-  /* basic styles */
-  width:200px;
-  padding:10px;
-  border-radius:10px;
-  background:#000;
-  color: #fff;
-  text-align:center;
-
-  display:none; 
-  /* hide by default */
-}
-
-
-.tooltip:hover:before {
-  display:block;
-}
-
-/* source: https://blog.logrocket.com/creating-beautiful-tooltips-with-only-css/ */
-	
-	
 
 .img-container-2 {
 	align-content: center;

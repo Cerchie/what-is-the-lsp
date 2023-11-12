@@ -34,6 +34,22 @@
 	margin: auto;
 	padding: 2em;
 }
+
+
+.client {
+	margin-left: -8em;
+	margin-top: 1em;
+	padding-top: .5em;
+	background-color: #edebf5;
+	color: black;
+	border: 3px solid  black;
+	width: 6em;
+	height: 3em;
+	border-radius: 20px;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .request {
 	margin-bottom: 1em;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -107,4 +123,20 @@
     background-color: white; /* Text color */
     border: 1px solid #4b0d82;
 }
+
+
+.server {
+	margin-top: 1em;
+	margin-left: 30em;
+	padding-top: .5em;
+	background-color: #fce8d7;
+	border: 3px solid  black;
+	width: 6em;
+	height: 3em;
+	border-radius: 20px;
+	text-align: center;
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
   </style>
