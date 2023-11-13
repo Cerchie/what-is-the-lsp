@@ -157,6 +157,7 @@ observer.observe(document.querySelector('.image.image-1'));
 
 <style>
 
+
 #author-container {
     padding: 1em;
     display:flex;
@@ -170,6 +171,7 @@ observer.observe(document.querySelector('.image.image-1'));
 }
 #headshot {
     width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 1em;
 }
