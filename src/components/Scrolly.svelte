@@ -133,7 +133,7 @@ p {
     max-width: 40rem;
 	margin: auto;
     margin-top: 1rem;
-    color: #4b0d82;
+    color: #130c61;
 }
 #scrolly {
     font-family: 'Merriweather', serif;

@@ -45,7 +45,7 @@
   }
 
 .server-gotodef {
-    padding-top: 1.5em;
+  padding-top: 1.5em;
   margin-left: 12em;
   margin-top: 7em;
   top: 10em;

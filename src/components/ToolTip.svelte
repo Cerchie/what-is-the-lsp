@@ -1,9 +1,12 @@
+
+
 <div class="editorwindow">
     <div class="exit-btn">X</div>
 <span 
 data-text="goToDefinition" 
-class="tooltip"
->variableName</span> = newValue;</div>
+class="variablename"
+>variableName<div class="childthing">childthing</div></span> = newValue;</div>
+
 
 <style>
     .exit-btn {
@@ -31,23 +34,29 @@ class="tooltip"
 	font-weight: 700;
 	background-color: #edebf5;
 }
-.tooltip {
+
+.variablename {
   position:relative; /* making the .tooltip span a container for the tooltip text */
   border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
 
 }
 
-.tooltip:before {
-  content: attr(data-text); /* here's the magic */
+.childthing{
+display: none;
+}
+
+.editorwindow:hover .childthing{
+
+ 
   position:absolute;
-  
+
   /* vertically center */
   top:50%;
   transform:translateY(-50%);
   
   /* move to right */
   left:100%;
-	margin-left: -2em;
+margin-left: -2em;
   margin-top: -2em;
   
   /* basic styles */
@@ -58,16 +67,26 @@ class="tooltip"
   color: #fff;
   text-align:center;
 
-  display:none; 
-  /* hide by default */
+  display:block; 
 }
-
-
-.tooltip:hover:before {
+ 
+/* .tooltip:hover::after {
   display:block;
-}
+} */
 
 /* source: https://blog.logrocket.com/creating-beautiful-tooltips-with-only-css/ */
-	
-	
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
 </style>
