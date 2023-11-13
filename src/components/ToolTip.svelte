@@ -5,7 +5,7 @@
 <span 
 data-text="goToDefinition" 
 class="variablename"
->variableName<div class="childthing">childthing</div></span> = newValue;</div>
+>variableName<div class="childthing"><a href="#server-requests">goToDefinition</a></div></span> = newValue;</div>
 
 
 <style>
@@ -35,6 +35,11 @@ class="variablename"
 	background-color: #edebf5;
 }
 
+.editorwindow a {
+    color: white;
+    text-decoration: none;
+}
+
 .variablename {
   position:relative; /* making the .tooltip span a container for the tooltip text */
   border-bottom:1px dashed #000; /* little indicater to indicate it's hoverable */
@@ -46,7 +51,6 @@ display: none;
 }
 
 .editorwindow:hover .childthing{
-
  
   position:absolute;
 
