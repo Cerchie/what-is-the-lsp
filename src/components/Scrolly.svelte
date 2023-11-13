@@ -117,6 +117,7 @@ observer.observe(document.querySelector('.image.image-1'));
     <p>The server then responds with the <span class="codespan">Location</span> of the definition, so the client can send you there.</p>
     <p>(And because it can handle these requests async, it can handle multiple requests at once.)</p>
 <GoToDef/>
+<p>In this way, the Language Server Protocol handles requests from code editors to support features for different languages in each client.</p>
 </section>
 <section id="resources">
     <div id="resources-container">
@@ -130,20 +131,51 @@ observer.observe(document.querySelector('.image.image-1'));
     </p>
     <h4>Official Documents</h4>
     <ul>
-        <li><a href="https://microsoft.github.io/language-server-protocol/">Microsoft's Guide</a></li>
+        <li><a href="https://microsoft.github.io/language-server-protocol/">Language Server Protocol</a>- Microsoft's Guide</li>
+        <li><a href="https://langserver.org/">Langserver.org</a>- A list of languages and their features supported in the LSP.</li>
     </ul>
     <h4>Tutorials</h4>
     <ul>
         <li><a href="https://www.toptal.com/javascript/language-server-protocol-tutorial">Language Servers in Text Editors | Toptal</a></li>
+        <li><a href="https://tomassetti.me/go-to-definition-in-the-language-server-protocol/">Go To Definition in the Language Server Protocol| Strumenta</a></li>
+        <li><a href="https://learn.microsoft.com/en-us/visualstudio/extensibility/adding-an-lsp-extension?view=vs-2019">Adding a Language Server Extension</a></li>
     </ul>
+</section>
+<section id="about-the-author">
+    <h3>About the author</h3>
+    <div id="author-container">
+    <img src="https://avatars.githubusercontent.com/u/54046179?v=4" alt="Lucia Cerchie's headshot" id="headshot">
+    <p>Lucia Cerchie is a developer experience professional who loves to learn in public.
+        You can find more of her content on her <a href="https://github.com/Cerchie">Github page</a> and her <a href="https://luciacerchie.dev/blog">blog</a>.
+   Reach out via <a href="https://www.linkedin.com/in/luciacerchie">LinkedIn</a>.</p>
+    </div>
 </section>
 <section id="footnotes">
     <p id="footnote-1">[1] Running <span class="codespan">curl -X GET https://api.github.com/repos/microsoft/language-server-protocol</span> reveals <span class="codespan">"created_at": "2015-09-04T09:24:55Z"</span></p>
 </section>
 
+
 <style>
 
+#author-container {
+    padding: 1em;
+    display:flex;
+}
+#about-the-author {
+    margin-top: 8em;
+
+}
+#about-the-author p {
+ margin-top: 4em;
+}
+#headshot {
+    width: 200px;
+    border-radius: 50%;
+    margin: 1em;
+}
+
 #footnote-1 {
+    margin-top: 20em;
     font-size: x-small;
 }
 #resources {
@@ -176,6 +208,10 @@ ul {
     width: 50%;
     color: #130c61;
     text-decoration: none;
+}
+
+li {
+    margin-top: 1em;
 }
 p {
     max-width: 40rem;

@@ -33,6 +33,7 @@ class="variablename"
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 700;
 	background-color: #edebf5;
+    margin-bottom: 17em;
 }
 
 .editorwindow a {
