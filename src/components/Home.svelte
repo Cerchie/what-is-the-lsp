@@ -14,7 +14,8 @@
 </div>
 
 <style>
-
+    /* all desktop styles */
+@media (min-width: 1100px) {
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
@@ -65,4 +66,5 @@
 		color: #4b0d82;
 		font-size: 1.5rem;
 	}
+}
 </style>

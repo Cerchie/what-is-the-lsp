@@ -8,7 +8,8 @@
 
 
 <style>
-
+    /* all desktop styles */
+@media (min-width: 1100px) {
 .client-gotodef {
   margin-left: 12em;
   right: 10em;
@@ -61,5 +62,5 @@
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-
+}
 </style>

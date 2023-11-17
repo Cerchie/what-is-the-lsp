@@ -22,6 +22,8 @@
   </div>
 
   <style>
+/* all desktop styles */
+@media (min-width: 1100px) {
     .request-controls{
 		margin: auto;
 		margin-top: 3em;
@@ -140,5 +142,5 @@
 	color: black;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+}
   </style>

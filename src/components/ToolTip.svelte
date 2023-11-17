@@ -9,6 +9,8 @@ class="variablename"
 
 
 <style>
+    /* all desktop styles */
+    @media (min-width: 1100px) {
     .exit-btn {
 	border: 2px solid black;
 	height: 1.5em;
@@ -92,6 +94,6 @@ margin-left: -2em;
   to {opacity:1 ;}
 }
 
-
+    }
 
 </style>

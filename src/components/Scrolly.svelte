@@ -156,8 +156,8 @@ observer.observe(document.querySelector('.image.image-1'));
 
 
 <style>
-
-
+/* all desktop styles */
+@media (min-width: 1100px) {
 #author-container {
     padding: 1em;
     display:flex;
@@ -271,5 +271,6 @@ h4 {
 @keyframes fadeOut {
 0% { opacity: 1; }
 100% { opacity: 0; }
+}
 }
 </style>
