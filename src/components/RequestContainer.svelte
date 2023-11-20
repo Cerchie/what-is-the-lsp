@@ -23,7 +23,7 @@
 
   <style>
 /* all desktop styles */
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
     .request-controls{
 		margin: auto;
 		margin-top: 3em;

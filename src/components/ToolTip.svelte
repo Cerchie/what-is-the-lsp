@@ -10,7 +10,7 @@ class="variablename"
 
 <style>
     /* all desktop styles */
-    @media (min-width: 1024px) {
+    @media (min-width: 1100px) {
     .exit-btn {
 	border: 2px solid black;
 	height: 1.5em;

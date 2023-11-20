@@ -15,7 +15,7 @@
 
 <style>
     /* all desktop styles */
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;

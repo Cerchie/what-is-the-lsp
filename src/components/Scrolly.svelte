@@ -151,7 +151,7 @@ observer.observe(document.querySelector('.image.image-1'));
 
 <style>
 /* all desktop styles */
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
 
 #author-container {
     padding: 1em;

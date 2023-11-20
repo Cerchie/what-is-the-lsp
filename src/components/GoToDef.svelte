@@ -9,7 +9,7 @@
 
 <style>
     /* all desktop styles */
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
 .client-gotodef {
   margin-left: 12em;
   right: 10em;
