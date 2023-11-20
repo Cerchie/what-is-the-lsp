@@ -6,13 +6,16 @@
     import '@fontsource/merriweather';
     import ToolTip from "./ToolTip.svelte";
 	
+  
+    
 
   onMount(() => {
-		
+    if (typeof window !== 'undefined') {
+    var isMobile = window.innerWidth < 1024; 
 			var animation = anime({
 			targets:  '.requestBox',
 			keyframes: [
-				{translateX: 270},
+				{translateX: isMobile ? 120 : 270},
 				{rotateY: 180},
 				{translateX: -27},
 			],	
@@ -49,7 +52,7 @@
 
 document.querySelector('.request-controls .play').onclick = animation.play;
 document.querySelector('.request-controls .pause').onclick = animation.pause;
-
+}
 const observer = new IntersectionObserver(entries => {
   // Loop over the entries
   entries.forEach(entry => {
@@ -64,11 +67,12 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('.image.image-1'));
 
 });
+    
 </script>
 
 <section id="purpose-of-lsp" >
 	<hr>
-	<div class="spacer"/>
+	<div class="spacer" />
 		<figure>
 			<p>Before the LSP, language developers faced an issue when it came to supporting different code editors. 
             </p>
@@ -208,7 +212,7 @@ h3 {
 	margin: auto;
     z-index: 10;
     color: #130c61;
-    font-size: 3em;
+    font-size: 2em;
 }
 ul {
     margin: auto;
@@ -222,9 +226,9 @@ li {
     margin-top: 1em;
 }
 p {
-    max-width: 50%;
+    width: 90vw;
 	margin: auto;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 1em;
     color: #130c61;
 }
@@ -249,21 +253,20 @@ h4 {
 
 .image.image-2 {
     display: block;
-  margin-left: auto;
+  margin-left: -2em;
   margin-right: auto;
-  width: 70%;
+  width: 100vw;
 }
 
 .image.image-1 {
     display: block;
-  margin-left: auto;
+    margin-left: -2em;
   margin-right: auto;
-  width: 70%;
+  width: 100vw;
 }
 
 .spacer {
-	margin-top: 4em;
-	height: 25vh;
+	height: 5vh;
 }
 
 @keyframes fadeIn {

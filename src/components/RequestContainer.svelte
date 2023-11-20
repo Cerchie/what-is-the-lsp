@@ -23,26 +23,27 @@
 
   <style>
     /* all mobile styles */
-    .request-controls{
+     .request-controls{
 		margin: auto;
 		margin-top: 3em;
 	}
 
 .animation-request-container {
 	margin: auto;
+    margin-top: 2em;
     width: 50%;
 	padding: 2em;
 }
 
 .client {
-	margin-left: -8em;
-	margin-top: 1em;
-	padding-top: .5em;
+	margin-left: -5em;
+    margin-top: 1.5em;
+    padding: .5em;
 	background-color: #edebf5;
 	color: black;
 	border: 3px solid  black;
-	width: 6em;
-	height: 3em;
+	width: 3em;
+	height: 1em;
 	border-radius: 20px;
 	text-align: center;
     font-size: x-large;
@@ -50,14 +51,14 @@
 }
 
 .request {
-	margin-bottom: 1em;
-    font-size: x-large;
+
+    font-size: small;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .request-container {
 	margin: auto;
 	width: 50%;
-	padding: 0;
+	padding: 1em;
 }
 
 .request-controls{
@@ -70,9 +71,9 @@
 }
 .request-path	{
 	height: 1em;
-	width: 270px;
+	width: 8em;
 	background-color: white;
-	margin: .5em;
+	margin: 1em;
 	align-content: center;
 	border:dashed 4px gainsboro;
 	border-top-left-radius: 255px 120px;
@@ -130,16 +131,15 @@
 
 
 .server {
-	margin-top: 1em;
-	margin-left: 21em;
-	padding-top: .5em;
+	margin-left: 7em;
+    padding: .5em;
 	background-color: #fce8d7;
+	color: black;
 	border: 3px solid  black;
-	width: 6em;
-	height: 3em;
+	width: 3em;
+	height: 1em;
 	border-radius: 20px;
 	text-align: center;
-	color: black;
     font-size: x-large;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

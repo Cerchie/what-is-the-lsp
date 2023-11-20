@@ -15,6 +15,7 @@
 
 <style>
     /* all mobile styles */
+
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
@@ -51,8 +52,7 @@
 	}
 
 	#p-intro-end {
-
-		max-width: 50%;
+		width: 90vw;
 		margin: auto;
 		padding: 1em;
 		color: #4b0d82;
@@ -60,7 +60,7 @@
 	}
 
 	#intro {
-		max-width: 50%;
+		width: 90vw;
 		margin: auto;
 		padding: 1em;
 		color: #4b0d82;
@@ -89,11 +89,12 @@
 	}
 
 	#headline {
-        font-size: 4em;
-		max-width: 50%;
+		max-width: 80vw;
 		margin: auto;
-		padding: 2em;
+        margin-left: -1em;
+        margin-bottom: -1em;
 		color: #4b0d82;
+        font-size: 2.5em;
 	}
 
 	#highlight {
@@ -101,21 +102,22 @@
 	}
 
 	#p-intro-end {
-
-		max-width: 50%;
+		width: 90vw;
 		margin: auto;
 		padding: 1em;
 		color: #4b0d82;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	#intro {
-		max-width: 50%;
+		width: 90vw;
 		margin: auto;
 		padding: 1em;
 		color: #4b0d82;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
+
+
     /* all desktop styles */
 @media (min-width: 1100px) {
     #text-wrapper {
