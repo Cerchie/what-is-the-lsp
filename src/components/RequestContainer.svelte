@@ -62,9 +62,8 @@
 }
 
 .request-controls{
-    padding-top: 2em;
-	padding-left: 8em;
-    padding-bottom: 6em;
+    display: flex;
+    justify-content: space-between;
 	margin: auto;
 	width: 50%;
 
@@ -93,8 +92,6 @@
 
 }
 .play {
-	margin-top: 2em;
-    margin: auto;
 	height: 2em;
     color: white; /* Background color */
     background-color: #4b0d82; /* Text color */
@@ -113,7 +110,6 @@
 
 .pause {
     border: 1px solid #4b0d82;
-	margin: auto;
 	height: 2em;
     color: white; /* Background color */
     background-color: #4b0d82; /* Text color */
