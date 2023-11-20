@@ -9,7 +9,7 @@
 
 <style>
     /* all desktop styles */
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
 .client-gotodef {
   margin-left: 12em;
   right: 10em;
@@ -27,7 +27,9 @@
 
 .gotodef-container {
   margin: auto;
+  width: 50%;
   padding: 2em;
+  font-size: x-large;
 }
 
 .gotodef-params {

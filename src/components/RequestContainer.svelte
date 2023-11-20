@@ -23,20 +23,17 @@
 
   <style>
 /* all desktop styles */
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
     .request-controls{
 		margin: auto;
 		margin-top: 3em;
 	}
 
-
-
-
 .animation-request-container {
 	margin: auto;
+    width: 50%;
 	padding: 2em;
 }
-
 
 .client {
 	margin-left: -8em;
@@ -49,11 +46,13 @@
 	height: 3em;
 	border-radius: 20px;
 	text-align: center;
+    font-size: x-large;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .request {
 	margin-bottom: 1em;
+    font-size: x-large;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .request-container {
@@ -63,7 +62,9 @@
 }
 
 .request-controls{
-	padding: 4em;
+    padding-top: 2em;
+	padding-left: 8em;
+    padding-bottom: 6em;
 	margin: auto;
 	width: 50%;
 
@@ -82,7 +83,6 @@
 }
 
 .requestBox {
-
   width: 0;
   height: 0;
   margin-top: -.5em;
@@ -93,14 +93,15 @@
 
 }
 .play {
-	margin: 2em;
+	margin-top: 2em;
+    margin: auto;
 	height: 2em;
     color: white; /* Background color */
     background-color: #4b0d82; /* Text color */
     cursor: pointer;
     transition: background-color 0.3s ease;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: large;
+	font-size: x-large;
     border: 1px solid #4b0d82;
 }
 
@@ -112,14 +113,14 @@
 
 .pause {
     border: 1px solid #4b0d82;
-	margin: .5em;
+	margin: auto;
 	height: 2em;
     color: white; /* Background color */
     background-color: #4b0d82; /* Text color */
     cursor: pointer;
     transition: background-color 0.3s ease;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: large;
+	font-size: x-large;
 }
 
 .pause:hover {
@@ -131,7 +132,7 @@
 
 .server {
 	margin-top: 1em;
-	margin-left: 30em;
+	margin-left: 21em;
 	padding-top: .5em;
 	background-color: #fce8d7;
 	border: 3px solid  black;
@@ -140,6 +141,7 @@
 	border-radius: 20px;
 	text-align: center;
 	color: black;
+    font-size: x-large;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 }

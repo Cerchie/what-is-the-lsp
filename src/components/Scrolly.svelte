@@ -29,7 +29,7 @@
 	var animationGoToDefReq = anime({
         targets:  '.gotodef-params',
         keyframes: [
-            {translateY: 190},
+            {translateY: 270},
 			{innerHTML: 'Location'},
             {translateY: -1},
         ],	
@@ -77,22 +77,16 @@ observer.observe(document.querySelector('.image.image-1'));
                 The work (including writing type checkers and builders) involved in supporting features like 
                <span class="codespan">goToDefinition</span> and <span class="codespan">autocomplete</span> had to be repeated <i>per editor</i>. 
             </p>
-			<div class="img-container">
 				<img class="image image-2" src='assets/1stgraphwhitebg.svg' alt="imageofgraph" />
-			</div>	
             <p>This means the work of supporting, say 3 languages in 3 editors is the work of 3x3.</p>
 		</figure>
 
 		<figure class='sticky'>
-
-			<div class="img-container-2">
 				<img class="image image-1" src="assets/2ndgraphwhitebg.svg" alt="1">
-	
-			</div>	
             <p>But once the unifying Language Server Protocol was introduced by Microsoft in 2015<a href="#footnote-1">[1]</a>, the work of developers to
                 support 3 languages in 3 editors was reduced to 3x1!</p>
 		</figure>
-        <hr>
+        <hr id="mid-hr">
     </section>
 <section id="what-is-an-lsp">
         <figure>
@@ -120,12 +114,12 @@ observer.observe(document.querySelector('.image.image-1'));
 <p>In this way, the Language Server Protocol handles requests from code editors to support features for different languages in each client.</p>
 </section>
 <section id="resources">
-    <div id="resources-container">
+   
     <h3>Resources</h3>
     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob">
         <path fill="#f58607" d="M29.6,-43.5C39.8,-39.4,50.6,-33.7,55.4,-24.8C60.3,-15.9,59.2,-3.8,55.8,6.8C52.3,17.4,46.6,26.4,39.3,33.3C32.1,40.1,23.3,44.9,13.5,49.1C3.7,53.4,-7.1,57.2,-17,55.4C-26.8,53.6,-35.8,46.1,-47.7,38.1C-59.7,30.1,-74.6,21.5,-74.9,11.5C-75.2,1.5,-60.7,-9.8,-50.3,-18.9C-39.9,-28.1,-33.4,-35,-25.7,-40.3C-18,-45.6,-9,-49.1,0.3,-49.7C9.7,-50.2,19.3,-47.7,29.6,-43.5Z" transform="translate(100 100)" />
       </svg>
-    </div>
+
     <p>This page has provided a high-level overview -- it's definitely the very tip of the iceberg, even conceptually.
         Here are some resources to help you dive deeper.
     </p>
@@ -157,7 +151,8 @@ observer.observe(document.querySelector('.image.image-1'));
 
 <style>
 /* all desktop styles */
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
+
 #author-container {
     padding: 1em;
     display:flex;
@@ -166,59 +161,66 @@ observer.observe(document.querySelector('.image.image-1'));
     margin-top: 8em;
 
 }
-#about-the-author p {
- margin-top: 4em;
-}
+
 #headshot {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 1em;
+    margin-right: -16em;
+    margin-left: 10em;
+    
 }
 
 #footnote-1 {
     margin-top: 20em;
-    font-size: x-small;
+    font-size: large;
 }
 #resources {
+   
     margin-top: 12em;
 }
 .codespan {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#resources-container {
-    margin-left: 6em;
-}
 #blob {
     position: absolute;
-    width: 200px;
+    width: 225px;
     z-index: -10;
-    margin-top: -6em;
-    margin-left: -1em;
+    margin-top: -10em;
+    margin-left: 18em;
     transform: rotate(50deg);
     opacity: 50%;
 }
+
+#mid-hr {
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
 h3 {
-    max-width: 40rem;
+    max-width: 50%;
 	margin: auto;
     z-index: 10;
     color: #130c61;
+    font-size: 3em;
 }
 ul {
     margin: auto;
     width: 50%;
     color: #130c61;
     text-decoration: none;
+    font-size: 1.75em;
 }
 
 li {
     margin-top: 1em;
 }
 p {
-    max-width: 40rem;
+    max-width: 50%;
 	margin: auto;
-    margin-top: 1rem;
+    font-size: 2em;
+    margin-top: 1em;
     color: #130c61;
 }
 section {
@@ -232,31 +234,27 @@ hr {
 }
 
 h4 {
+    font-size: 2em;
     margin: auto;
     margin-bottom: 1em;
     width: 50%;
     margin-top: 4em;
     color: #130c61;
 }
-#resources h3 {
-    text-decoration: underline dotted #130c61 2px;
-}
-.img-container-2 {
-	align-content: center;
-
-}
 
 .image.image-2 {
-	margin: auto;
-	width: 80vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .image.image-1 {
-	margin: auto;
-	width: 80vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
-
-
 
 .spacer {
 	margin-top: 4em;

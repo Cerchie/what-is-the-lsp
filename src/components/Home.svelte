@@ -15,7 +15,7 @@
 
 <style>
     /* all desktop styles */
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
@@ -40,9 +40,10 @@
 	}
 
 	#headline {
-		max-width: 40rem;
+        font-size: 4em;
+		max-width: 50%;
 		margin: auto;
-		padding: 2rem;
+		padding: 2em;
 		color: #4b0d82;
 	}
 
@@ -52,19 +53,19 @@
 
 	#p-intro-end {
 
-		max-width: 40rem;
+		max-width: 50%;
 		margin: auto;
-		padding: 2rem;
+		padding: 1em;
 		color: #4b0d82;
-		font-size: 1.5rem;
+		font-size: 2em;
 	}
 
 	#intro {
-		max-width: 40rem;
+		max-width: 50%;
 		margin: auto;
-		padding: 2rem;
+		padding: 1em;
 		color: #4b0d82;
-		font-size: 1.5rem;
+		font-size: 2em;
 	}
 }
 </style>

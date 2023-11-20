@@ -10,7 +10,7 @@ class="variablename"
 
 <style>
     /* all desktop styles */
-    @media (min-width: 1100px) {
+    @media (min-width: 1024px) {
     .exit-btn {
 	border: 2px solid black;
 	height: 1.5em;
@@ -18,7 +18,9 @@ class="variablename"
 	margin-top: .5em;
 	margin-left: .5em;
     margin-bottom: 1em;
-    padding-top: .25em;
+    padding-top: .35em;
+    padding-left: .2em;
+    padding-right: .2em;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: 200;
 	border-radius: 2px;
@@ -27,13 +29,14 @@ class="variablename"
 .editorwindow {
 	border: 2px solid black;
 	border-radius: 2px;
-	width: 50%;
+	width: 40%;
 	margin: auto;
     margin-top: 4em;
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: 4em;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 700;
+    font-size: x-large;
 	background-color: #edebf5;
     margin-bottom: 17em;
 }
