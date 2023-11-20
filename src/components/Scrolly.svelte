@@ -136,10 +136,10 @@ observer.observe(document.querySelector('.image.image-1'));
     </ul>
 </section>
 <section id="about-the-author">
-    <h3>About the author</h3>
+    <h3 id="about-h3">About the author</h3>
     <div id="author-container">
     <img src="https://avatars.githubusercontent.com/u/54046179?v=4" alt="Lucia Cerchie's headshot" id="headshot">
-    <p>Lucia Cerchie is a developer experience professional who loves to learn in public.
+    <p id="about-para">Lucia Cerchie is a developer experience professional who loves to learn in public.
         You can find more of her content on her <a href="https://github.com/Cerchie">Github page</a> and her <a href="https://luciacerchie.dev/blog">blog</a>.
    Reach out via <a href="https://www.linkedin.com/in/luciacerchie">LinkedIn</a>.</p>
     </div>
@@ -154,20 +154,26 @@ observer.observe(document.querySelector('.image.image-1'));
 @media (min-width: 1100px) {
 
 #author-container {
-    padding: 1em;
+    padding: 20px;;
     display:flex;
+    justify-content: space-around;
 }
 #about-the-author {
-    margin-top: 8em;
-
+    margin-top: 200px;
+    margin-left: 200px;
 }
 
+#about-h3 {
+    margin-left: 90px;
+}
+#about-para {
+    margin-left: 10px;
+}
 #headshot {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-right: -16em;
-    margin-left: 10em;
+    margin: 30px;
     
 }
 
