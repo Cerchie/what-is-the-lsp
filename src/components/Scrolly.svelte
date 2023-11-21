@@ -155,7 +155,7 @@ observer.observe(document.querySelector('.image.image-1'));
 </figure>
 </section>
 <section id="footnotes">
-    <p id="footnote-1">[1] Running <span class="codespan">curl -X GET https://api.github.com/repos/microsoft/language-server-protocol</span> reveals <span class="codespan">"created_at": "2015-09-04T09:24:55Z"</span></p>
+    <p id="footnote-1">[1] Footnote: Running <span class="codespan">curl -X GET https://api.github.com/repos/microsoft/language-server-protocol</span> reveals <span class="codespan">"created_at": "2015-09-04T09:24:55Z"</span></p>
 </section>
 
 
