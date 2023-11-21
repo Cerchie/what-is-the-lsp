@@ -181,9 +181,10 @@
 
 .request-controls{
     padding-top: 2em;
-	padding-left: -1em;
+	padding-left: -4em;
     padding-bottom: 6em;
 	margin: auto;
+    margin-left: 9.25em;
 	width: 50%;
 
 }
