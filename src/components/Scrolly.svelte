@@ -169,6 +169,7 @@ observer.observe(document.querySelector('.image.image-1'));
 }
 #about-the-author {
 margin-top: 90px;
+margin-left: -1em;
 
 }
 
@@ -204,7 +205,7 @@ display: none;
 h3 {
     max-width: 100%;
 	margin: auto;
-
+    margin-left: -.3em;
     z-index: 10;
     color: #130c61;
     font-size: 2em;
@@ -263,7 +264,7 @@ h4 {
 }
 
 #h3-resources {
-    margin-left: .75em;
+    margin-left: .9em;
 }
 
 .spacer {
@@ -279,7 +280,9 @@ h4 {
 0% { opacity: 1; }
 100% { opacity: 0; }
 }
-
+#about-h3 {
+    margin-left: 12px;
+}
 
 /* all desktop styles */
 @media (min-width: 1100px) {
