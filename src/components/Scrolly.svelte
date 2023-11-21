@@ -107,7 +107,7 @@ observer.observe(document.querySelector('.image.image-1'));
 </figure>
 </section>
 <section id="server-requests">
-    <figure>
+
     <h3>Server Requests</h3>
     <p>When you click on <span class="codespan">goToDefinition</span> you trigger a request from the editor, the client, to the server.
         This request is for the<span class="codespans">textDocument/definition</span> 
@@ -117,7 +117,7 @@ observer.observe(document.querySelector('.image.image-1'));
     <p>(And because it can handle these requests async, it can handle multiple requests at once.)</p>
     <GoToDef/>
 <p>In this way, the Language Server Protocol handles requests from code editors to support features for different languages in each client.</p>
-</figure>
+
 </section>
 <section id="resources">
    
@@ -161,15 +161,17 @@ observer.observe(document.querySelector('.image.image-1'));
 
 <style>
     /* all mobile styles */
-
+#about-h3 {
+    margin-left: .5em;
+    white-space: nowrap;
+}
 #author-container {
     padding: 20px;
-    display:flex;
-    justify-content: space-around;
+
+
 }
 #about-the-author {
 margin-top: 90px;
-margin-left: -1em;
 
 }
 
@@ -208,14 +210,14 @@ h3 {
     margin-left: -.3em;
     z-index: 10;
     color: #130c61;
-    font-size: 2em;
+    font-size: xx-large;
 }
 ul {
     margin: auto;
     width: 90%;
     color: #130c61;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: large;
 }
 
 li {
@@ -224,7 +226,7 @@ li {
 p {
     width: 90vw;
 	margin: auto;
-    font-size: 1.5em;
+    font-size: large;
     margin-top: 1em;
     margin-left: -.5em;
     color: #130c61;
@@ -240,7 +242,7 @@ hr {
 }
 
 h4 {
-    font-size: 2em;
+    font-size: x-large;
     margin: auto;
     margin-bottom: 1em;
     margin-left: 1em;
@@ -280,10 +282,12 @@ h4 {
 0% { opacity: 1; }
 100% { opacity: 0; }
 }
-#about-h3 {
-    margin-left: 12px;
-}
 
+#server-requests {
+    width: 80vw;
+	margin: auto;
+    margin-left: 2em;
+}
 /* all desktop styles */
 @media (min-width: 1100px) {
 
