@@ -131,7 +131,7 @@
         font-size: 4em;
 
 		margin: auto;
-	
+        margin-left: .5em;
 		color: #4b0d82;
 	}
 

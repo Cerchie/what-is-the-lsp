@@ -286,7 +286,7 @@ h4 {
 #server-requests {
     width: 80vw;
 	margin: auto;
-    margin-left: 2em;
+    margin-left: 5em;
 }
 
 #about-para {
