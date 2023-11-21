@@ -37,7 +37,7 @@ class="variablename"
 	font-weight: 700;
     font-size: x-large;
 	background-color: #edebf5;
-    margin-bottom: 17em;
+    margin-bottom: 4em;
 }
 
 .editorwindow a {
@@ -67,7 +67,6 @@ display: none;
   left:100%;
   margin-left: -5em;
   margin-top: -2em;
-  
   /* basic styles */
   width:200px;
   padding:10px;

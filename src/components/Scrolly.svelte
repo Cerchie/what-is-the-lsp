@@ -107,6 +107,7 @@ observer.observe(document.querySelector('.image.image-1'));
 </figure>
 </section>
 <section id="server-requests">
+    <figure>
     <h3>Server Requests</h3>
     <p>When you click on <span class="codespan">goToDefinition</span> you trigger a request from the editor, the client, to the server.
         This request is for the<span class="codespans">textDocument/definition</span> 
@@ -114,12 +115,14 @@ observer.observe(document.querySelector('.image.image-1'));
     </p>
     <p>The server then responds with the <span class="codespan">Location</span> of the definition, so the client can send you there.</p>
     <p>(And because it can handle these requests async, it can handle multiple requests at once.)</p>
-<GoToDef/>
+    <GoToDef/>
 <p>In this way, the Language Server Protocol handles requests from code editors to support features for different languages in each client.</p>
+</figure>
 </section>
 <section id="resources">
    
-    <h3>Resources</h3>
+    <h3 id="h3-resources">Resources</h3>
+<figure>
     <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob">
         <path fill="#f58607" d="M29.6,-43.5C39.8,-39.4,50.6,-33.7,55.4,-24.8C60.3,-15.9,59.2,-3.8,55.8,6.8C52.3,17.4,46.6,26.4,39.3,33.3C32.1,40.1,23.3,44.9,13.5,49.1C3.7,53.4,-7.1,57.2,-17,55.4C-26.8,53.6,-35.8,46.1,-47.7,38.1C-59.7,30.1,-74.6,21.5,-74.9,11.5C-75.2,1.5,-60.7,-9.8,-50.3,-18.9C-39.9,-28.1,-33.4,-35,-25.7,-40.3C-18,-45.6,-9,-49.1,0.3,-49.7C9.7,-50.2,19.3,-47.7,29.6,-43.5Z" transform="translate(100 100)" />
       </svg>
@@ -138,8 +141,10 @@ observer.observe(document.querySelector('.image.image-1'));
         <li><a href="https://tomassetti.me/go-to-definition-in-the-language-server-protocol/">Go To Definition in the Language Server Protocol| Strumenta</a></li>
         <li><a href="https://learn.microsoft.com/en-us/visualstudio/extensibility/adding-an-lsp-extension?view=vs-2019">Adding a Language Server Extension</a></li>
     </ul>
+</figure>
 </section>
 <section id="about-the-author">
+<figure>
     <h3 id="about-h3">About the author</h3>
     <div id="author-container">
     <img src="https://avatars.githubusercontent.com/u/54046179?v=4" alt="Lucia Cerchie's headshot" id="headshot">
@@ -147,6 +152,7 @@ observer.observe(document.querySelector('.image.image-1'));
         You can find more of her content on her <a href="https://github.com/Cerchie">Github page</a> and her <a href="https://luciacerchie.dev/blog">blog</a>.
    Reach out via <a href="https://www.linkedin.com/in/luciacerchie">LinkedIn</a>.</p>
     </div>
+</figure>
 </section>
 <section id="footnotes">
     <p id="footnote-1">[1] Running <span class="codespan">curl -X GET https://api.github.com/repos/microsoft/language-server-protocol</span> reveals <span class="codespan">"created_at": "2015-09-04T09:24:55Z"</span></p>
@@ -157,32 +163,26 @@ observer.observe(document.querySelector('.image.image-1'));
     /* all mobile styles */
 
 #author-container {
-    padding: 20px;;
+    padding: 20px;
     display:flex;
     justify-content: space-around;
 }
 #about-the-author {
-    margin-top: 200px;
-    margin-left: 200px;
+margin-top: 90px;
+
 }
 
-#about-h3 {
-    margin-left: 90px;
-}
-#about-para {
-    margin-left: 10px;
-}
 #headshot {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 30px;
+display: none;
     
 }
 
 #footnote-1 {
-    margin-top: 20em;
+    margin-top: 10em;
+    margin-left: 1em;
     font-size: large;
+    width: 90%;
+    word-wrap: break-word;
 }
 #resources {
    
@@ -193,13 +193,7 @@ observer.observe(document.querySelector('.image.image-1'));
 }
 
 #blob {
-    position: absolute;
-    width: 225px;
-    z-index: -10;
-    margin-top: -10em;
-    margin-left: 18em;
-    transform: rotate(50deg);
-    opacity: 50%;
+display: none;
 }
 
 #mid-hr {
@@ -208,18 +202,19 @@ observer.observe(document.querySelector('.image.image-1'));
     margin-bottom: 5em;
 }
 h3 {
-    max-width: 50%;
+    max-width: 100%;
 	margin: auto;
+
     z-index: 10;
     color: #130c61;
     font-size: 2em;
 }
 ul {
     margin: auto;
-    width: 50%;
+    width: 90%;
     color: #130c61;
     text-decoration: none;
-    font-size: 1.75em;
+    font-size: 1.5em;
 }
 
 li {
@@ -247,6 +242,7 @@ h4 {
     font-size: 2em;
     margin: auto;
     margin-bottom: 1em;
+    margin-left: 1em;
     width: 50%;
     margin-top: 4em;
     color: #130c61;
@@ -266,6 +262,10 @@ h4 {
   width: 100vw;
 }
 
+#h3-resources {
+    margin-left: .75em;
+}
+
 .spacer {
 	height: 5vh;
 }
@@ -279,6 +279,8 @@ h4 {
 0% { opacity: 1; }
 100% { opacity: 0; }
 }
+
+
 /* all desktop styles */
 @media (min-width: 1100px) {
 
@@ -299,6 +301,7 @@ h4 {
     margin-left: 10px;
 }
 #headshot {
+    display:block;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -319,11 +322,13 @@ h4 {
 }
 
 #blob {
+    display: block;
     position: absolute;
-    width: 225px;
+    width: 250px;
     z-index: -10;
-    margin-top: -10em;
-    margin-left: 18em;
+    margin-top: -12em;
+    margin-left: 10em;
+
     transform: rotate(50deg);
     opacity: 50%;
 }
@@ -361,6 +366,11 @@ p {
 section {
     font-family: 'Merriweather', serif;
     }
+
+    #h3-resources {
+    margin-left: 6em;
+}
+
 
 hr {
 	width: 50vw;
