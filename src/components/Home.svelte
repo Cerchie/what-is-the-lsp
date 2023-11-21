@@ -19,6 +19,7 @@
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
+        max-width: 100%;
     }
 
 	.tion {
@@ -40,9 +41,10 @@
 	}
 
 	#headline {
-        font-size: 4em;
-		max-width: 50%;
+        font-size: xxx-large;
+		max-width: 666px;
 		margin: auto;
+        margin-left: -1.5em;
 		padding: 2em;
 		color: #4b0d82;
 	}
@@ -88,14 +90,7 @@
 	}
 	}
 
-	#headline {
-		max-width: 80vw;
-		margin: auto;
-        margin-left: -1em;
-        margin-bottom: -1em;
-		color: #4b0d82;
-        font-size: 2.5em;
-	}
+
 
 	#highlight {
 		color: #f58607;

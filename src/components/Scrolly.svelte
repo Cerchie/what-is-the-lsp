@@ -288,9 +288,18 @@ h4 {
 	margin: auto;
     margin-left: 2em;
 }
+
+#about-para {
+    width: 100%;
+    word-wrap: break-word
+}
 /* all desktop styles */
 @media (min-width: 1100px) {
-
+    #about-para {
+    width: 100%;
+    word-wrap: break-word;
+    margin-left: 1em;
+}
 #author-container {
     padding: 20px;;
     display:flex;
@@ -304,9 +313,7 @@ h4 {
 #about-h3 {
     margin-left: 90px;
 }
-#about-para {
-    margin-left: 10px;
-}
+
 #headshot {
     display:block;
     width: 200px;
