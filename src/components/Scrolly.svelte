@@ -230,6 +230,7 @@ p {
 	margin: auto;
     font-size: 1.5em;
     margin-top: 1em;
+    margin-left: -.5em;
     color: #130c61;
 }
 section {

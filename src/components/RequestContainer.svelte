@@ -31,6 +31,7 @@
 .animation-request-container {
 	margin: auto;
     margin-top: 2em;
+    margin-left: .75em;
     width: 50%;
 	padding: 2em;
 }

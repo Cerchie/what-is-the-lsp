@@ -28,11 +28,11 @@ class="variablename"
 .editorwindow {
 	border: 2px solid black;
 	border-radius: 2px;
-	width: 40%;
+	width: 90%;
 	margin: auto;
     margin-top: 4em;
 	text-align: center;
-	padding-bottom: 4em;
+	padding-bottom: 2em;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 700;
     font-size: x-large;
@@ -65,7 +65,7 @@ display: none;
   
   /* move to right */
   left:100%;
-margin-left: -2em;
+  margin-left: -5em;
   margin-top: -2em;
   
   /* basic styles */
