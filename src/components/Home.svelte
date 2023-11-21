@@ -20,6 +20,7 @@
         position: relative;
         font-family: 'Merriweather', serif;
         max-width: 100%;
+        width: 100px;
     }
 
 	.tion {
@@ -42,7 +43,6 @@
 
 	#headline {
         font-size: xxx-large;
-		max-width: 666px;
 		margin: auto;
         margin-left: -1.5em;
 		padding: 2em;
@@ -53,21 +53,9 @@
 		color: #f58607;
 	}
 
-	#p-intro-end {
-		width: 90vw;
-		margin: auto;
-		padding: 1em;
-		color: #4b0d82;
-		font-size: 2em;
-	}
 
-	#intro {
-		width: 90vw;
-		margin: auto;
-		padding: 1em;
-		color: #4b0d82;
-		font-size: 2em;
-	} #text-wrapper {
+
+#text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
     }
@@ -99,15 +87,16 @@
 	#p-intro-end {
 		width: 90vw;
 		margin: auto;
-		padding: 1em;
+        margin-left: 1em;
 		color: #4b0d82;
 		font-size: 1.5em;
+        margin-bottom: 2em;
 	}
 
 	#intro {
 		width: 90vw;
-		margin: auto;
-		padding: 1em;
+		margin-left: 1em;
+
 		color: #4b0d82;
 		font-size: 1.5em;
 	}
