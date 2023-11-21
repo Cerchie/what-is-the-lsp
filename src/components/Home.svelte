@@ -129,9 +129,9 @@
 
 	#headline {
         font-size: 4em;
-		max-width: 50%;
+
 		margin: auto;
-		padding: 2em;
+	
 		color: #4b0d82;
 	}
 
@@ -140,17 +140,16 @@
 	}
 
 	#p-intro-end {
-
-		max-width: 50%;
 		margin: auto;
+        margin-left: 4em;
 		padding: 1em;
 		color: #4b0d82;
 		font-size: 2em;
 	}
 
 	#intro {
-		max-width: 50%;
 		margin: auto;
+        margin-left: 4em;
 		padding: 1em;
 		color: #4b0d82;
 		font-size: 2em;
