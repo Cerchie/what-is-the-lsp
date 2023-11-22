@@ -330,9 +330,8 @@ h4 {
     position: absolute;
     width: 250px;
     z-index: -10;
-    margin-top: -11em;
-    margin-left: 25em;
-
+    margin-top: -175px;
+    margin-left: 350px;
     transform: rotate(50deg);
     opacity: 50%;
 }
