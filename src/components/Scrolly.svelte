@@ -146,6 +146,7 @@ observer.observe(document.querySelector('.image.image-1'));
     <p id="about-para">Lucia Cerchie is a developer experience professional who loves to learn in public.
         You can find more of her content on her <a href="https://github.com/Cerchie">Github page</a> and her <a href="https://luciacerchie.dev/blog">blog</a>.
    Reach out via <a href="https://www.linkedin.com/in/luciacerchie">LinkedIn</a>.</p>
+   <p id="about-para"><a href="https://cerchie.github.io/what-is-the-lsp/">Learn what Lucia learned</a> by making this site.</p>
     </div>
 </figure>
 </section>
