@@ -7,7 +7,7 @@ I built this website for two purposes:
 
 If you want to learn more about the LSP start here: https://what-is-the-lsp.netlify.app/
 
-If you want to know what I learned by creating this site, read on. 
+If you want to know some of what I learned by creating this site, read on. 
 
 ## svelte.js
 
@@ -63,4 +63,20 @@ Unfortunately, in V3 of anime.js this is not supported-- it adds a 0 to the end 
 
 
 ## CSS
-PLACEHOLDER
+
+I learned _so much_ about CSS for this! I've been taking Josh W. Comeau's course [CSS for JS Devs](https://css-for-js.dev/), and I'm only halfway through, but I'm no longer scared of CSS. 🤯
+
+Basically, I didn't know before that CSS has different [layout algorithms](https://www.joshwcomeau.com/css/understanding-layout-algorithms/). Once you learn how those algorithms (flexbox, position, grid, table, flow) work, the mystery and confusion surrounding CSS dissipates.
+
+For this particular project, I used a flexbox layout algo for my 'about the author' section:
+
+```
+#author-container {
+    padding: 20px;;
+    display:flex;
+    justify-content: space-around;
+}
+```
+I used it because I wanted the elements to be surrounded by space and oriented around the main axis. 
+
+For the rest, I mainly used _positioned_ layout. If you want to learn more about these algorithms, [this blog post](https://www.joshwcomeau.com/css/understanding-layout-algorithms/) by Josh would be a great start. 
