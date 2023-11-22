@@ -80,3 +80,16 @@ For this particular project, I used a flexbox layout algo for my 'about the auth
 I used it because I wanted the elements to be surrounded by space and oriented around the main axis. 
 
 For the rest, I mainly used _positioned_ layout. If you want to learn more about these algorithms, [this blog post](https://www.joshwcomeau.com/css/understanding-layout-algorithms/) by Josh would be a great start. 
+
+## Conclusion
+
+These are just some tidbits and notes on what I've learned. I've got more to learn, including:
+
+- implementing 'prefers reduced motion'
+- finding a way to generate a scrollytelling template for my own purposes using ChatGPT
+- the other CSS algos besides positioned and flexbox
+- working my svelte.js muscles and making working in the bindings natural to me
+
+But I've learned a few broader things along the way about creating static sites and animation. I've learned that animation design is a complex process that involves taking away more animation than you'd think (it was super hard deciding what movements were really necessary when it comes to educating readers on the concepts I wanted to teach, and which movement were just 'flair'). I've learned that user event-based coding isn't just limited to React. I've learned that it's easier to set up the design of your SPA (single page web app) at the beginning rather than having to go painstakingly back over the CSS alignment because you built stuff incrementally and it's now all wonky. Hopefully these lessons stick with me. :) 
+
+
