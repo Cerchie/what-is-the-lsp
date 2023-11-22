@@ -1,4 +1,4 @@
-# [What Is The Language Sercver Protocol?](https://what-is-the-lsp.netlify.app/) 
+# [What Is The Language Server Protocol?](https://what-is-the-lsp.netlify.app/) 
 
 I built this website for two purposes:
 
