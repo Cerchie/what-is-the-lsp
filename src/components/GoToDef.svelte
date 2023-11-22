@@ -27,7 +27,7 @@
 
 .gotodef-container {
   margin: auto;
-  margin-left: -10em;
+  margin-left: -11em;
   width: 50%;
   padding: 2em;
   font-size: x-large;
