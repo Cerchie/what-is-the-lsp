@@ -1,38 +1,21 @@
-# create-svelte
+# [What Is The Language Sercver Protocol?](https://what-is-the-lsp.netlify.app/) 
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+I built this website for two purposes:
 
-## Creating a project
+1. to share my interest in [the LSP](https://microsoft.github.io/language-server-protocol/) with others
+2. to hone my frontend skills, specifically in CSS and animation 
 
-If you're seeing this, you've probably already done this step. Congrats!
+If you want to learn more about the LSP start here: https://what-is-the-lsp.netlify.app/
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+If you want to know what I learned by creating this site, read on. 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## svelte.js
 
-## Developing
+PLACEHOLDER
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## anime.js
 
-```bash
-npm run dev
+PLACEHOLDER
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## CSS
+PLACEHOLDER
