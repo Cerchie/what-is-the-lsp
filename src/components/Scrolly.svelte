@@ -122,9 +122,6 @@ observer.observe(document.querySelector('.image.image-1'));
 <section id="resources">
 <figure>
     <h3>Resources</h3>
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob">
-        <path fill="#f58607" d="M29.6,-43.5C39.8,-39.4,50.6,-33.7,55.4,-24.8C60.3,-15.9,59.2,-3.8,55.8,6.8C52.3,17.4,46.6,26.4,39.3,33.3C32.1,40.1,23.3,44.9,13.5,49.1C3.7,53.4,-7.1,57.2,-17,55.4C-26.8,53.6,-35.8,46.1,-47.7,38.1C-59.7,30.1,-74.6,21.5,-74.9,11.5C-75.2,1.5,-60.7,-9.8,-50.3,-18.9C-39.9,-28.1,-33.4,-35,-25.7,-40.3C-18,-45.6,-9,-49.1,0.3,-49.7C9.7,-50.2,19.3,-47.7,29.6,-43.5Z" transform="translate(100 100)" />
-      </svg>
     <p>This page has provided a high-level overview -- it's definitely the very tip of the iceberg, even conceptually.
         Here are some resources to help you dive deeper.
     </p>
@@ -325,16 +322,7 @@ h4 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#blob {
-    display: block;
-    position: absolute;
-    width: 250px;
-    z-index: -10;
-    margin-top: -175px;
-    margin-left: 350px;
-    transform: rotate(50deg);
-    opacity: 50%;
-}
+
 
 #mid-hr {
     margin: auto;
