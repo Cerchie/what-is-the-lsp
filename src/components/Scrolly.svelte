@@ -222,7 +222,7 @@ li {
     margin-top: 1em;
 }
 p {
-    width: 90vw;
+    width: 100%;
 	margin: auto;
     font-size: large;
     margin-top: 1em;
