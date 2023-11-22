@@ -1,4 +1,4 @@
-# [What Is The Language Server Protocol?](https://what-is-the-lsp.netlify.app/) 
+# What I Learned By Building An Educational Static Site
 
 I built this website for two purposes:
 
