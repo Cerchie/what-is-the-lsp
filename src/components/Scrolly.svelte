@@ -190,9 +190,7 @@ display: none;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#blob {
-display: none;
-}
+
 
 #mid-hr {
     margin: auto;
@@ -250,14 +248,14 @@ h4 {
     display: block;
   margin-left: -2em;
   margin-right: auto;
-  width: 100vw;
+  width: 100%;
 }
 
 .image.image-1 {
     display: block;
     margin-left: -2em;
   margin-right: auto;
-  width: 100vw;
+  width: 100%;
 }
 
 
