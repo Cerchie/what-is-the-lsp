@@ -46,6 +46,8 @@
   border-radius: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
+  font-size: large;
+  white-space: nowrap;
   }
 
 .server-gotodef {
