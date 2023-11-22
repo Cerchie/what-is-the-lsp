@@ -110,7 +110,7 @@ observer.observe(document.querySelector('.image.image-1'));
 <section id="server-requests">
     <figure>
     <h3>Server Requests</h3>
-    <p>When you click on <span class="codespan">goToDefinition</span> you trigger a request from the editor, the client, to the server. This request is for the<span class="codespans">textDocument/definition</span> and includes the parameters <span class="codespan">{'{documentURI, position}'}</span>.
+    <p>When you click on <span class="codespan">goToDefinition</span>, you trigger a request from the editor, the client, to the server. This request is for the <span class="codespans">textDocument/definition</span> and includes the parameters <span class="codespan">{'{documentURI, position}'}</span>.
     </p>
     <p>The server then responds with the <span class="codespan">Location</span> of the definition, so the client can send you there.</p>
     <p>(And because it can handle these requests async, it can handle multiple requests at once.)</p>
