@@ -362,6 +362,8 @@ section {
 hr {
 	width: 50vw;
 	margin:0 auto;
+    margin-top: 8em;
+    margin-bottom: -10em;
 	border: 1px solid #4b0d82;
 }
 

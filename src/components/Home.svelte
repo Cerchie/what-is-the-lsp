@@ -4,6 +4,7 @@
 </script>
 
 <div>
+    <div id="secret-message">Hey there! Thanks for checking out my page. If you'd like to chat, email me at luciacerchie at gmail dot com.</div>
 <div id="text-wrapper"> 
 	<h1 id="headline">The Language Server Protocol</h1>
 	<p id="intro">Code editors these days come with some fancy schmancy features like code comple<span class="tion">tion</span><span class="bar">|</span>, syntax <b id="highlight">highlighting</b>, and refactoring routines.</p>
@@ -15,7 +16,9 @@
 
 <style>
     /* all mobile styles */
-
+#secret-message {
+    display: none;
+}
     #text-wrapper {
         position: relative;
         font-family: 'Merriweather', serif;
@@ -128,8 +131,7 @@
 	}
 
 	#headline {
-        font-size: 4em;
-
+        font-size: 4em; 
 		margin: auto;
         margin-left: .5em;
 		color: #4b0d82;
