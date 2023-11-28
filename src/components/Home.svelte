@@ -53,7 +53,7 @@
 	}
 
 	#highlight {
-		color: #f58607;
+		color: #E96A01;
 	}
 
 

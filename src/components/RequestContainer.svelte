@@ -22,6 +22,12 @@
   </div>
 
   <style>
+
+@media (prefers-reduced-motion) {
+    .animation-request-container {
+	display: none;
+}
+}
     /* all mobile styles */
      .request-controls{
 		margin: auto;

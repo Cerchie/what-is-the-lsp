@@ -29,7 +29,7 @@
 	<meta name="twitter:creator" content="@CerchieLucia" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image:src" content="{url}/assets/social.png" />
+	<meta name="twitter:image:src" content="..static/assets/social.png" />
 
 	<link rel="canonical" href="{url}/" />
 
