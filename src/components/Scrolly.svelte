@@ -102,7 +102,7 @@ observer.observe(document.querySelector('.image.image-1'));
             <RequestContainer/>
 </figure>
 <figure>
-    <p>So what happens, say, when you hover over a <span class="codespan">variableName</span> and click <span class="codespan">goToDefinition</span>?</p>
+    <p>So what happens, say, when you hover over (or, if you're on mobile here, click on) a <span class="codespan">variableName</span> and click <span class="codespan">goToDefinition</span>?</p>
     <ToolTip/>
 </figure>
 </section>
